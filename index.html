@@ -1,0 +1,509 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Đánh giá limousine</title>
+<link
+	rel="stylesheet"
+	href="https://crm.futabus.vn/static/css/vendors~628502f6.b888111f.chunk.css" />
+<link
+	rel="stylesheet"
+	href="https://crm.futabus.vn/static/css/vendors~be1e0659.bb3a3fb4.chunk.css" />
+<link
+	rel="stylesheet"
+	href="https://crm.futabus.vn/static/css/vendors~3ffedb8b.2b53ba5c.chunk.css" />
+<link
+	rel="stylesheet"
+	href="https://crm.futabus.vn/static/css/main.c2cfbee9.chunk.css" />
+<link
+	rel="stylesheet"
+	href="https://crm.futabus.vn/static/css/common.0b48baaf.chunk.css" />
+<link
+	rel="shortcut icon"
+	href="https://www.amazinglimousine.vn/wp-content/uploads/2023/08/cropped-cropped-AMZBN.png"
+	type="image/x-icon" />
+<script src="https://crm.futabus.vn/assets/common.94a0970b.js"></script>
+<script src="https://crm.futabus.vn/assets/48.a79c9f44.js"></script>
+<style>
+	@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+	body {
+		font-family: "Roboto", sans-serif;
+	}
+	.input-info input {
+		width: 100%;
+		padding: 8px 11px;
+		border: none;
+		border-radius: 8px;
+		border: 1px solid #d9d9d9;
+	}
+	.input-info input::placeholder {
+		color: #bfbfbf;
+	}
+	/* Khi hover hoặc click vào ngôi sao */
+	/* Thiết lập CSS cho ngôi sao khi được active */
+	.ant-rate-star.active .ant-rate-star-first,
+	.ant-rate-star.active .ant-rate-star-second {
+		width: 100%;
+		opacity: 1;
+	}
+	.active-cate {
+		border: 2px solid #2e8cf7 !important;
+	}
+	.bad {
+		display: none;
+	}
+	.sussess {
+		display: none;
+	}
+	body {
+		overflow-x: hidden !important;
+	}
+	.template {
+		padding-top: 0 !important;
+		padding-bottom: 0;
+	}
+	.container-img {
+		margin: 0 auto;
+
+		max-width: 550px;
+	}
+</style>
+
+<div id="admin_core">
+	<div class="template">
+		<div class="container-img">
+			<img src="./img/banner-ngang.jpeg" width="100%" alt="" />
+		</div>
+		<div class="container">
+			<img src="" alt="" class="busline-image" />
+			<div class="heading-2">
+				<div class="margin-bottom-cus">
+					Amazing Limousine chân thành Cảm ơn Quý Khách đã sử dụng dịch vụ của
+					Amazing Limousine trên hành trình<b> Sài Gòn - Đà Lạt</b> và
+					<b> Ngược lại</b>
+				</div>
+				<div class="margin-cus">
+					Chúng tôi rất mong nhận được ý kiến đánh giá từ Quý Khách để cải thiện
+					và nâng cao chất lượng dịch vụ.
+				</div>
+			</div>
+			<form class="ant-form ant-form-vertical support_image">
+				<div class="rate-container">
+					<div class="rate-text">Đánh giá dịch vụ</div>
+					<div class="ant-form-item ant-form-item-with-help">
+						<div class="ant-row ant-form-item-row">
+							<div class="ant-col ant-form-item-control">
+								<div class="ant-form-item-control-input">
+									<div class="ant-form-item-control-input-content">
+										<ul
+											class="ant-rate undefined"
+											tabindex="0"
+											role="radiogroup">
+											<li class="ant-rate-star ant-rate-star-zero">
+												<div
+													role="radio"
+													aria-checked="false"
+													aria-posinset="1"
+													aria-setsize="5"
+													tabindex="0">
+													<div class="ant-rate-star-first">
+														<span><img width="60px" class="star" /></span>
+													</div>
+													<div class="ant-rate-star-second">
+														<span><img width="60px" class="star" /></span>
+													</div>
+												</div>
+											</li>
+											<li class="ant-rate-star ant-rate-star-zero">
+												<div
+													role="radio"
+													aria-checked="false"
+													aria-posinset="2"
+													aria-setsize="5"
+													tabindex="0">
+													<div class="ant-rate-star-first">
+														<span><img width="60px" class="star" /></span>
+													</div>
+													<div class="ant-rate-star-second">
+														<span><img width="60px" class="star" /></span>
+													</div>
+												</div>
+											</li>
+											<li class="ant-rate-star ant-rate-star-zero">
+												<div
+													role="radio"
+													aria-checked="false"
+													aria-posinset="3"
+													aria-setsize="5"
+													tabindex="0">
+													<div class="ant-rate-star-first">
+														<span><img width="60px" class="star" /></span>
+													</div>
+													<div class="ant-rate-star-second">
+														<span><img width="60px" class="star" /></span>
+													</div>
+												</div>
+											</li>
+											<li class="ant-rate-star ant-rate-star-zero">
+												<div
+													role="radio"
+													aria-checked="false"
+													aria-posinset="4"
+													aria-setsize="5"
+													tabindex="0">
+													<div class="ant-rate-star-first">
+														<span><img width="60px" class="star" /></span>
+													</div>
+													<div class="ant-rate-star-second">
+														<span><img width="60px" class="star" /></span>
+													</div>
+												</div>
+											</li>
+											<li class="ant-rate-star ant-rate-star-zero">
+												<div
+													role="radio"
+													aria-checked="false"
+													aria-posinset="5"
+													aria-setsize="5"
+													tabindex="0">
+													<div class="ant-rate-star-first">
+														<span><img width="60px" class="star" /></span>
+													</div>
+													<div class="ant-rate-star-second">
+														<span><img width="60px" class="star" /></span>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div style="display: flex; flex-wrap: nowrap">
+									<div
+										class="ant-form-item-explain ant-form-item-explain-connected"
+										role="alert">
+										<div class="" style="">
+											<span
+												class="ant-typography"
+												style="color: rgb(255, 77, 79)"></span>
+										</div>
+									</div>
+									<div style="width: 0px; height: 24px"></div>
+								</div>
+							</div>
+						</div>
+						<div
+							class="ant-form-item-margin-offset"
+							style="margin-bottom: -24px"></div>
+					</div>
+				</div>
+				<div class="sussess">
+					<div class="line"></div>
+					<div class="info-text">Quý khách cảm thấy hài lòng!</div>
+					<div class="issue-container">
+						<span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Chất lượng xe</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Nhà chờ</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Quầy vé</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Tài xế</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Tiếp viên</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Tổng đài</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Trạm dừng</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Trung chuyển</span
+						>
+					</div>
+					<div class="error-issue"></div>
+				</div>
+				<div class="bad">
+					<div class="line"></div>
+					<div class="info-text">Quý khách mong muốn cải thiện điều gì?</div>
+					<div class="issue-container">
+						<span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Chất lượng xe</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Nhà chờ</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Quầy vé</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Tài xế</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Tiếp viên</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Tổng đài</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Trạm dừng</span
+						><span
+							class="inactive-issue"
+							style="background: rgb(241, 241, 241); color: black"
+							>Trung chuyển</span
+						>
+					</div>
+					<div class="error-issue"></div>
+				</div>
+				<div class="ant-form-item ant-form-item-with-help">
+					<div class="ant-row ant-form-item-row">
+						<div class="ant-col ant-form-item-control">
+							<div class="ant-form-item-control-input">
+								<div class="ant-form-item-control-input-content">
+									<div class="input-info">
+										<input type="text" placeholder="Nhập họ và tên" />
+									</div>
+									<br />
+									<div class="input-info">
+										<input type="text" placeholder="Nhập số điện thoại" />
+									</div>
+									<br />
+									<div class="float-label">
+										<span
+											class="ant-input-affix-wrapper ant-input-affix-wrapper-textarea-with-clear-btn">
+											<textarea
+												rows="4"
+												placeholder="Nhập nội dung đánh giá"
+												class="ant-input undefined"></textarea
+											><span
+												role="button"
+												aria-label="close-circle"
+												tabindex="-1"
+												class="anticon anticon-close-circle ant-input-clear-icon-hidden ant-input-clear-icon"
+												><svg
+													fill-rule="evenodd"
+													viewBox="64 64 896 896"
+													focusable="false"
+													data-icon="close-circle"
+													width="1em"
+													height="1em"
+													fill="currentColor"
+													aria-hidden="true">
+													<path
+														d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"></path></svg></span
+										></span>
+									</div>
+								</div>
+							</div>
+							<div style="display: flex; flex-wrap: nowrap">
+								<div
+									class="ant-form-item-explain ant-form-item-explain-connected"
+									role="alert">
+									<div class="" style="">
+										<span
+											class="ant-typography"
+											style="color: rgb(255, 77, 79); font-size: 10px"
+											><i></i
+										></span>
+									</div>
+								</div>
+								<div style="width: 0px; height: 24px"></div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="ant-form-item-margin-offset"
+						style="margin-bottom: -24px"></div>
+				</div>
+				<div class="submit-button">
+					<button
+						type="submit"
+						class="ant-btn ant-btn-round ant-btn-default submit-btn">
+						<span>Gửi đánh giá</span>
+					</button>
+				</div>
+			</form>
+		</div>
+		<div class="container-img">
+			<img
+				src="https://res.cloudinary.com/dnasp7ghs/image/upload/v1715067111/lxammr9dznet0zlygdse.jpg"
+				width="100%"
+				alt="" />
+		</div>
+	</div>
+</div>
+
+<script>
+	// Lấy tất cả các ngôi sao đánh giá
+	const stars = document.querySelectorAll(".ant-rate-star");
+
+	// Lặp qua từng ngôi sao và thêm sự kiện click
+	stars.forEach((star, index) => {
+		star.addEventListener("click", () => {
+			// Loại bỏ lớp active từ tất cả các ngôi sao có index lớn hơn index của ngôi sao được chọn
+			for (let i = index + 1; i < stars.length; i++) {
+				stars[i].classList.remove("active");
+			}
+			// Thêm lớp active cho ngôi sao được chọn và các ngôi sao trước đó
+			for (let i = 0; i <= index; i++) {
+				stars[i].classList.add("active");
+			}
+			console.log(index + 1);
+			if (index + 1 <= 3) {
+				document.querySelector(".bad").style.display = "block";
+				document.querySelector(".sussess").style.display = "none";
+			} else {
+				document.querySelector(".sussess").style.display = "block";
+				document.querySelector(".bad").style.display = "none";
+			}
+		});
+	});
+
+	// Lấy tất cả các phần tử có lớp "inactive-issue"
+	const issueItems = document.querySelectorAll(".inactive-issue");
+
+	// Khởi tạo mảng để lưu trữ các vấn đề được chọn
+	let selectedIssues = [];
+
+	// Lặp qua mỗi phần tử con và thêm sự kiện click
+	issueItems.forEach((item) => {
+		item.addEventListener("click", () => {
+			const isActive = item.classList.contains("active-cate");
+			if (!isActive) {
+				// Thêm lớp "active-cate" khi được chọn
+				item.classList.add("active-cate");
+				// Thêm dữ liệu đã chọn vào mảng
+				selectedIssues.push(item.innerText);
+			} else {
+				// Xóa lớp "active-cate" khi bỏ chọn
+				item.classList.remove("active-cate");
+				// Xóa dữ liệu đã chọn khỏi mảng
+				const index = selectedIssues.indexOf(item.innerText);
+				if (index !== -1) {
+					selectedIssues.splice(index, 1);
+				}
+			}
+			// checkSubmitButton();
+		});
+	});
+
+	// function checkSubmitButton() {
+	// 	const nameInput = document.querySelector(
+	// 		"input[placeholder='Nhập họ và tên']"
+	// 	);
+	// 	const phoneInput = document.querySelector(
+	// 		"input[placeholder='Nhập số điện thoại']"
+	// 	);
+	// 	const reviewInput = document.querySelector(
+	// 		"textarea[placeholder='Nhập nội dung đánh giá']"
+	// 	);
+	// 	const submitButton = document.querySelector(".submit-btn");
+	// 	const isNameFilled = nameInput.value.trim() !== "";
+	// 	const isPhoneFilled = phoneInput.value.trim() !== "";
+	// 	const isReviewFilled = reviewInput.value.trim() !== "";
+	// 	const isStarSelected =
+	// 		document.querySelector(".ant-rate-star.active") !== null;
+	// 	const isIssueSelected = selectedIssues.length > 0;
+
+	// 	if (
+	// 		isNameFilled ||
+	// 		isPhoneFilled ||
+	// 		isReviewFilled ||
+	// 		isStarSelected ||
+	// 		isIssueSelected
+	// 	) {
+	// 		submitButton.removeAttribute("disabled");
+	// 	} else {
+	// 		submitButton.setAttribute("disabled", "disabled");
+	// 	}
+	// }
+
+	// Event listener for submit button
+	const submitButton = document.querySelector(".submit-btn");
+	submitButton.addEventListener("click", onSubmitReview);
+
+	// Function to handle form submission
+	function onSubmitReview(event) {
+		event.preventDefault();
+
+		const name = document
+			.querySelector("input[placeholder='Nhập họ và tên']")
+			.value.trim();
+		const phone = document
+			.querySelector("input[placeholder='Nhập số điện thoại']")
+			.value.trim();
+		const review = document
+			.querySelector("textarea[placeholder='Nhập nội dung đánh giá']")
+			.value.trim();
+		const stars = document.querySelectorAll(".ant-rate-star.active").length;
+
+		const url =
+			"https://script.google.com/macros/s/AKfycbxuXMGtQqQe1hvuje8fS_ThRHHSYy1yKb9BSBCM_9usHWvyBiPF5-X-nlqgUtc_Kg3xRQ/exec";
+		const formData = new FormData();
+		formData.append("name", name);
+		formData.append("phone", phone);
+		formData.append("review", review);
+		formData.append("stars", stars);
+		formData.append("issues", selectedIssues.join(","));
+
+		// Gửi dữ liệu lên máy chủ
+		fetch(url, {
+			method: "POST",
+			body: formData,
+		}).then(() => {
+			// Reset form
+			document.querySelector("form").reset();
+			// Xóa các lớp active
+			stars.forEach((star) => star.classList.remove("active"));
+			issueItems.forEach((item) => item.classList.remove("active-cate"));
+			// Xóa mảng selectedIssues
+			selectedIssues = [];
+			// Vô hiệu hóa nút gửi sau khi gửi
+			submitButton.setAttribute("disabled", "");
+		});
+		// Chuyển hướng sau 1 giây
+		setTimeout(() => {
+			window.location.href = "https://www.amazinglimousine.vn/cam-on-danh-gia/";
+		}, 500);
+	}
+
+	const logo =
+		"https://www.amazinglimousine.vn/wp-content/uploads/2023/08/cropped-cropped-AMZBN.png";
+
+	const imgLogo = document.querySelector(".busline-image");
+	imgLogo.src = logo;
+	const star = "https://crm.futabus.vn/static/images/star_default.c2ef332a.svg";
+	const starChecked = "https://crm.futabus.vn/static/images/star.ddec0040.svg";
+	const divStar = document.querySelectorAll(".ant-rate-star-second span img");
+	const divStarchecked = document.querySelectorAll(
+		".ant-rate-star-first span img"
+	);
+	// Lặp qua các phần tử img trong divStar và gán src cho mỗi phần tử
+	divStar.forEach((img) => {
+		img.src = star;
+	});
+
+	// Lặp qua các phần tử img trong divStarchecked và gán src cho mỗi phần tử
+	divStarchecked.forEach((img) => {
+		img.src = starChecked;
+	});
+</script>
